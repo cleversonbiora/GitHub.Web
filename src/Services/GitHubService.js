@@ -1,5 +1,5 @@
-export const API_URL = "http://localhost:52950/api";
-
+//export const API_URL = "http://localhost:52950/api";
+export const API_URL = "https://githubtop.azurewebsites.net";
 export function ListTop(language, qtd){
     return fetch(`${API_URL}/Repository/ListTop?language=${encodeURIComponent(language)}&qtd=${qtd}`, { 
       headers: {
